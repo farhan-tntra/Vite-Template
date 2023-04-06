@@ -6,4 +6,4 @@ COPY package.json .
 COPY yarn.lock .
 COPY . .
 RUN yarn 
-CMD ["sh", "-c", "yarn start"]
+CMD ["sh", "-c", "yarn run serve"]

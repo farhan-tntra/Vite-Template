@@ -1,3 +1,3 @@
-export const en={
-    test:"test"
-}
+export const en = {
+  test: 'test',
+};
