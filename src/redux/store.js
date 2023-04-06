@@ -8,7 +8,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 
 export default (initialState = {}) => {
   const persistConfig = {
-    key: '',// add project name
+    key: 'template',// add project name
     storage,
   };
 
