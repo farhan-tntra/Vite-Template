@@ -10,6 +10,9 @@
 
 # production
 /build
+/bist
+
+
 
 # misc
 .DS_Store
@@ -20,6 +23,8 @@
 .env.production.local
 
 npm-debug.log*
+yarn.lock
+package.json.lock
 yarn-debug.log*
 yarn-error.log*
 
