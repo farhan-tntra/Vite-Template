@@ -1,10 +1,12 @@
-version: "3.8"
+version: '3.8'
 services:
   app:
     container_name: shairu-website-dev-frontend
+    #change the container name as per your porject
     image: shairu-website-dev
+    # change the image name as per your poject
     environment:
-     #add project level env variables
+      #add project level env variables
     build:
       context: .
     volumes:

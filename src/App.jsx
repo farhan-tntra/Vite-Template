@@ -14,7 +14,7 @@ function App() {
     <main className='main'>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <HelloWorld msg='You have sucsecfully created react project' />
+          <HelloWorld msg=' You have sucsecfully created react project' />
         </PersistGate>
       </Provider>
     </main>

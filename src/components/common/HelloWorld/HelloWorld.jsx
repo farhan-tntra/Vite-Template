@@ -1,12 +1,11 @@
-
-import React,{useState} from 'react';
-import  "./HelloWorld.css"
-const HelloWorld = ({msg}) => {
+import React, { useState } from 'react';
+import './HelloWorld.css';
+const HelloWorld = ({ msg }) => {
   const [count, setCount] = useState(0);
 
   const increment = () => setCount((prevCount) => prevCount + 1);
   return (
-    <div className="HelloWorld">
+    <div className='HelloWorld'>
       <h1 data-testid='title'>{msg}</h1>
 
       <p>
