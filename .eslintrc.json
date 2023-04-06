@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jest/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-undef": "off",
+    "react/prop-types": "off",
+    "no-useless-escape": 2,
+    "react/react-in-jsx-scope": 2,
+    "no-unused-vars": 2,
+    "react/jsx-key": 2,
+    "no-console": 2,
+  }
+}
